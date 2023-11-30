@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, black, #282C35);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+/* Main content container */
+.main_div {
+    text-align: center;
+}
+
+/* Text styles */
+.current_song,
+#title,
+#banner,
+#singer,
+p {
+    margin: 10px;
+    color: whitesmoke;
+}
+
+/* Song list container */
+.songs {
+    text-align: left; /* Adjust as needed */
+}
+
+/* Header 1 styles */
+h1 {
+    color: whitesmoke;
+    /* Remove absolute positioning */
+}
+
+/* Banner styles */
+h1#banner {
+    color: red;
+    font-family: system-ui;
+    font-style: revert;
+}
+
+/* Image styles */
+img {
+    width: 500px;
+    height: 400px;
+}
+
+/* Additional paragraph styles */
+p {
+    color: whitesmoke;
+}
+
+/* Button styles */
+#prev,
+#play,
+#next {
+    background-color: black;
+    border: none;
+}
+
+/* Icon styles */
+.prev {
+    color: whitesmoke;
+    height: 5vh;
+}
